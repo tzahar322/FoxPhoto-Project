@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+  }
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Regular.woff2") format('woff2');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  :root {
+
+    --font-family: "Open Sans", sans-serif;
+  }
+  
+.header__top {
+    display: flex;
+
+    .social__links {
+        display: flex;
+        justify-content: right;
+    }
+
+    .contact__info{
+        font-family: var(--font-family);
+        margin-left: 30px;
+       
+    }
+} 
+
+.header__bottom {
+    background-color: #00AFCC;
+
+    .nav__list {
+        display: flex;
+        list-style-type: none;
+        font-family: var(--font-family);
+        justify-content: space-between;
+        .nav__item {
+            font-size: 20px;
+            color: #ffffff;
+        }
+    }
+    
+}
