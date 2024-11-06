@@ -1,0 +1,168 @@
+@media screen and (max-width: 992px) {
+  .banner .banner__inner {
+    padding: 33px 13px 28px 16px;
+  }
+  .banner .banner__inner .flex-banner .flex-banner__left {
+    position: relative;
+    top: 100px;
+    margin-right: 20px;
+  }
+  .banner .banner__inner .flex-banner .flex-banner__left .img__t-shirts {
+    width: 423px;
+    height: 240px;
+  }
+  .banner .banner__inner .flex-banner .flex-banner__right .title {
+    font-size: 44px;
+    line-height: 60px;
+    max-width: 520px;
+    padding-right: 20px;
+    margin-bottom: 48px;
+  }
+  .banner .banner__inner .flex-banner .flex-banner__right .button {
+    margin-bottom: 32px;
+  }
+  .about .about__inner {
+    padding: 0px 15px 0px 16px;
+  }
+  .about .about__inner .flex-about .flex-about__left {
+    max-width: 990px;
+    margin-top: 35px;
+  }
+  .about .about__inner .flex-about .flex-about__left .title {
+    font-size: 36px;
+  }
+  .about .about__inner .flex-about .flex-about__right {
+    position: relative;
+    top: -140px;
+  }
+  .about .about__inner .flex-about .flex-about__right .img__bag {
+    width: 147px;
+    height: 207px;
+  }
+  .catalog__inner {
+    padding: 49px 13px 54px 16px;
+  }
+  .catalog__inner .title {
+    font-size: 36px;
+  }
+  .catalog__inner .grid-catalog .third-column .fifth-block .img__for-house {
+    width: 165px;
+    height: 165px;
+  }
+  .catalog__inner .grid-catalog .fourth-column .sixth-block .img__photo {
+    width: 165px;
+    height: 165px;
+  }
+  .subtitle__catalog {
+    font-size: 30px;
+    margin-bottom: 9px;
+    margin-top: 0px;
+  }
+  .seo__inner {
+    padding-right: 11px;
+  }
+  .map {
+    background-size: cover;
+    background-position: center;
+  }
+  .map .map__inner {
+    margin: 16px 415px 10px 16px;
+    background-color: white;
+    opacity: 0.8;
+  }
+  .contact-us .contact-us__inner {
+    padding: 24px 18px 30px 16px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left {
+    margin-right: 32px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .title {
+    font-size: 36px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left input {
+    width: 452px;
+    height: 42px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right {
+    width: 477px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts {
+    padding-right: 30px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .title {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav__inner {
+    padding: 0px 25px 0px 16px;
+  }
+  .nav__inner .flex-nav .first-block .items .buttons {
+    margin-right: 34px;
+  }
+  .banner .banner__inner .flex-banner .flex-banner__left {
+    position: relative;
+    top: 160px;
+  }
+  .banner .banner__inner .flex-banner .flex-banner__left .flex-banner__right .h1-text__banner {
+    font-size: 36px;
+  }
+  .banner .banner__inner .flex-banner .flex-banner__left .flex-banner__right .title {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  .about .about__inner .flex-about .flex-about__right .img__bag {
+    display: none;
+  }
+  .catalog {
+    height: 1250px;
+  }
+  .catalog .catalog__inner {
+    padding: 49px 0px 0px 16px;
+  }
+  .catalog .catalog__inner .grid-catalog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .catalog .catalog__inner .grid-catalog .fourth-column {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .catalog .catalog__inner .grid-catalog .fourth-column .sixth-block .img__photo {
+    position: relative;
+    right: 260px;
+    top: -190px;
+  }
+  .map {
+    background-size: cover;
+    background-position: center;
+  }
+  .map .map__inner {
+    margin: 16px 300px 10px 16px;
+    background-color: white;
+    opacity: 0.8;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left {
+    width: 370px;
+    margin-right: 22px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .input-name {
+    width: 370px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .input-phone {
+    width: 370px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .input-text {
+    width: 370px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__left .title {
+    font-size: 32px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts {
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+  .contact-us .contact-us__inner .flex-contact-us .flex-contact-us__right .contacts .title {
+    font-size: 32px;
+  }
+}/*# sourceMappingURL=media.css.map */
