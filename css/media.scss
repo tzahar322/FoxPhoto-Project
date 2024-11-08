@@ -1,3 +1,129 @@
+@media screen and (max-width: 2560px) {
+    .map {
+        background-size: cover;
+        background-position: center;
+        .map__inner {
+            margin: 16px 1815px 10px 16px;
+            background-color: white;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media screen and (max-width: 2224px) {
+    .map {
+        background-size: cover;
+        background-position: center;
+        .map__inner {
+            margin: 16px 1615px 10px 16px;
+            background-color: white;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media screen and (max-width: 2024px) {
+    .map {
+        background-size: cover;
+        background-position: center;
+        .map__inner {
+            margin: 16px 1415px 10px 16px;
+            background-color: white;
+            opacity: 0.8;
+        }
+    }
+}
+@media screen and (max-width: 1824px) {
+    .map {
+        background-size: cover;
+        background-position: center;
+        .map__inner {
+            margin: 16px 1215px 10px 16px;
+            background-color: white;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media screen and (max-width: 1624px) {
+    .map {
+        background-size: cover;
+        background-position: center;
+        .map__inner {
+            margin: 16px 1015px 10px 16px;
+            background-color: white;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media screen and (max-width: 1424px) {
+    .map {
+        background-size: cover;
+        background-position: center;
+        .map__inner {
+            margin: 16px 815px 10px 16px;
+            background-color: white;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media screen and (max-width: 1224px) {
+    .map {
+        background-size: cover;
+        background-position: center;
+        .map__inner {
+            margin: 16px 615px 10px 16px;
+            background-color: white;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media screen and (max-width: 1154px) {
+    .map {
+        background-size: cover;
+        background-position: center;
+        .map__inner {
+            margin: 16px 515px 10px 16px;
+            background-color: white;
+            opacity: 0.8;
+        }
+    }
+    .contact-us {
+        .contact-us__inner {
+            .flex-contact-us {
+                .flex-contact-us__left {
+                    width: 530px;
+                    margin-right: 22px;
+                    .input-name {
+                        width: 530px;
+                    }
+                    .input-phone {
+                        width: 530px;
+                    }
+                    .input-text {
+                        width: 530px;
+                    }
+                    .title {
+                        font-size: 32px;
+                    }
+                }
+                .flex-contact-us__right {
+                    .contacts {
+                        padding-left: 30px;
+                        padding-right: 0px;
+                        .title {
+                            font-size: 32px;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 992px) {
     .banner {
         .banner__inner {
@@ -120,10 +246,160 @@
 }
 }
 
+@media screen and (max-width: 937px) {
+    .contact-us {
+        .contact-us__inner {
+            .flex-contact-us {
+                .flex-contact-us__left {
+                    width: 480px;
+                    margin-right: 22px;
+                    .input-name {
+                        width: 480px;
+                    }
+                    .input-phone {
+                        width: 480px;
+                    }
+                    .input-text {
+                        width: 480px;
+                    }
+                    .title {
+                        font-size: 32px;
+                    }
+                }
+                .flex-contact-us__right {
+                    .contacts {
+                        padding-left: 30px;
+                        padding-right: 0px;
+                        .title {
+                            font-size: 32px;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 894px) {
+    .contact-us {
+        .contact-us__inner {
+            .flex-contact-us {
+                .flex-contact-us__left {
+                    width: 370px;
+                    margin-right: 22px;
+                    .input-name {
+                        width: 370px;
+                    }
+                    .input-phone {
+                        width: 370px;
+                    }
+                    .input-text {
+                        width: 370px;
+                    }
+                    .title {
+                        font-size: 32px;
+                    }
+                }
+                .flex-contact-us__right {
+                    .contacts {
+                        padding-left: 30px;
+                        padding-right: 0px;
+                        .title {
+                            font-size: 32px;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 826px) {
+    .map {
+        background-size: cover;
+        background-position: center;
+        .map__inner {
+            margin: 16px 315px 10px 16px;
+            background-color: white;
+            opacity: 0.8;
+        }
+    }
+    .about {
+        .about__inner {
+            .flex-about {
+                .flex-about__right {
+                    .img__bag {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 804px) {
+    .nav__inner {
+        .flex-nav {
+            .flex-nav__second-block {
+                .display-none-768 {
+                    display: none;
+                }
+            }
+        }
+    }
+    .about {
+        .about__inner {
+            .flex-about {
+                .flex-about__right {
+                    .img__bag {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .contact-us {
+        .contact-us__inner {
+            .flex-contact-us {
+                .flex-contact-us__left {
+                    width: 370px;
+                    margin-right: 22px;
+                    .input-name {
+                        width: 370px;
+                    }
+                    .input-phone {
+                        width: 370px;
+                    }
+                    .input-text {
+                        width: 370px;
+                    }
+                    .title {
+                        font-size: 32px;
+                    }
+                }
+                .flex-contact-us__right {
+                    .contacts {
+                        padding-left: 30px;
+                        padding-right: 0px;
+                        .title {
+                            font-size: 32px;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 768px) {
     .nav__inner {
         padding: 0px 25px 0px 16px;
             .flex-nav {
+
+                .flex-nav__second-block {
+                    .display-none-768 {
+                        display: none;
+                    }
+                }
                 .first-block {
                     .items {
                         .buttons {
